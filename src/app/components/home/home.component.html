@@ -1,0 +1,33 @@
+
+<div class="container">
+    <div class="row">
+
+<!-- About me -->
+        <div class="col-lg shadow border m-1">
+            <div class="text-center">
+                <h2>About Me</h2>
+                <img src="/images/rajan.jpg"  alt="profile picture" width="256" height="256" class="rounded-circle" />
+                
+                <!-- <p>Welcome to My Personal Website</p> -->
+                <p>I am a software engineer with a passion for creating engaging and user-friendly interfaces having 1+ years of experience in App development and enhancement as a Java Developer.</p>
+            </div>
+        </div>
+
+<!-- Featured projects -->
+        <div class="col-lg shadow border m-1">
+            <div class="text-center">
+                <h2>Featured Project</h2>
+                <h4 style="color: rebeccapurple;">{{featuredProject.name}}</h4>
+                
+                <carousel>
+                    <div *ngFor="let image of featuredProject.pictures">
+                        <slide><img src={{image}} alt="slide" style="display: block; width: 100%;"></slide>
+                    </div>
+                </carousel>
+
+                <p class="mt-2">{{featuredProject.summary}}</p>
+                <p>Visit the Portfolio section to get more details about the project</p>
+            </div>
+        </div>
+    </div>
+</div>
