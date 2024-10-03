@@ -2,7 +2,11 @@ export class Tag {
 
     // static readonly Angular = new Tag('Angular', '#E04C2F');
     static readonly ANGULAR = new Tag('Angular', 'red');
-
+    static readonly JSP = new Tag('JSP', 'green');
+    static readonly HIBERNATE = new Tag('Hibernate', 'red');
+    static readonly JPA = new Tag('Jpa', 'red');
+    static readonly SERVLETS = new Tag('Servlets', 'green');
+    static readonly JDBC = new Tag('Jdbc', 'black');
     static readonly HTML = new Tag('HTML', 'blue');
     static readonly CSS = new Tag('CSS', 'green');
     static readonly BOOTSTRAP = new Tag('Bootstrap', 'darkblue');

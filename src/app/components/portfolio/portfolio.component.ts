@@ -82,6 +82,12 @@ export class PortfolioComponent implements OnInit {
   nodejs: boolean = false;
   aspnet: boolean = false;
 
+  jdbc: boolean = false;
+  jsp: boolean = false;
+  servlets: boolean = false;
+  hibernate: boolean = false;
+  jpa: boolean = false;
+
   projects = {} as Project[];
 
   constructor(private titleService: Title, private projectService: ProjectService) {
@@ -135,7 +141,27 @@ export class PortfolioComponent implements OnInit {
       filterTags.push(Tag.ASPNET);
     }
 
-    if(this.nodejs || this.aspnet || this.javascript || this.java || this.python || this.csharp || this.typescript || this.react || this.springboot || this.angular){
+    if(this.jsp){
+      filterTags.push(Tag.JSP);
+    }
+
+    if(this.jdbc){
+      filterTags.push(Tag.JDBC);
+    }
+
+    if(this.servlets){
+      filterTags.push(Tag.SERVLETS);
+    }
+
+    if(this.hibernate){
+      filterTags.push(Tag.HIBERNATE);
+    }
+
+    if(this.jpa){
+      filterTags.push(Tag.JPA);
+    }
+
+    if(this.nodejs || this.jsp|| this.jdbc|| this.servlets || this.hibernate || this.jpa || this.aspnet || this.javascript || this.java || this.python || this.csharp || this.typescript || this.react || this.springboot || this.angular){
       this.filtering = true;
     }else{
       this.filtering = false;
@@ -156,6 +182,12 @@ export class PortfolioComponent implements OnInit {
     this.nodejs = false;
     this.aspnet = false;
     this.filtering = false;
+    this.jsp = false;
+    this.jdbc = false;
+    this.servlets = false;
+    this.hibernate = false;
+    this.jpa = false;
+    
 
     this.projects = this.projectService.getProjects();
   }

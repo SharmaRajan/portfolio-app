@@ -8,11 +8,15 @@
             <!-- Work Experience -->
             <accordion-group [(isOpen)]="isWorkExperienceOpen">
                 <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
+                    <div style="visibility: hidden;">></div>
                     <div class="btn-link">Work Experience</div>
 
                     <!-- heading="Work Experience" -->
-                    <div *ngIf="!isWorkExperienceOpen" style="color: white;">></div>
-                    <div *ngIf="isWorkExperienceOpen" style="color: white;">v</div>
+                     <div style="width: 10.95px;">
+                        <div *ngIf="!isWorkExperienceOpen" style="color: white;">></div>
+                        <div *ngIf="isWorkExperienceOpen" style="color: white;">v</div>
+                     </div>
+                    
                 </button>
                 <div style="text-align: left;">
                     <h2 class="mb-0">Software Engineer</h2>
@@ -20,13 +24,12 @@
                     <ul>
                         <li>
                             <p>Jan 2023 - Dec 2023</p>
-                            <p>Worked on various projects, including developing web applications, web services, and
-                                mobile applications.</p>
-                        </li>
-                        <li>
-                            <p>March 2019 - July 2020</p>
-                            <p>Worked on various projects, including developing web applications, web services, and
-                                mobile applications.</p>
+                            <p>Proficiently utilized Java 8, J2EE, Oracle DB, GitLab, Maven to streamline project workflows and enhance
+                                efficiency at BirchStreet System project.
+                            </p>
+                            <p>Demonstrated flexibility and a commitment to skill enhancement through internal training sessions at AWC
+                                Software mastering Spring REST, Spring MVC, Spring Security, Hibernate.
+                            </p>
                         </li>
                     </ul>
                 </div>
@@ -37,30 +40,27 @@
                     <ul>
                         <li>
                             <p>Dec 2022 - Jan 2023</p>
-                            <p>Worked on various projects, including developing web applications, web services, and
-                                mobile applications.</p>
-                        </li>
-                        <li>
-                            <p>March 2019 - July 2020</p>
-                            <p>Worked on various projects, including developing web applications, web services, and
-                                mobile applications.</p>
+                            <p>
+                                Leveraged my skills in Figma, Svelte, MySQL, I played a key role in contributing to cutting edge software
+                                solutions and database optimization.
+                            </p>
                         </li>
                     </ul>
                 </div>
 
                 <div style="text-align: left;">
                     <h2 class="mb-0">SDE Intern - Java</h2>
-                    <h3 class="text-primary">Dhwani RIS</h3>
+                    <h3 class="text-primary">
+                        Dhwani RIS
+                        
+                    </h3>
                     <ul>
                         <li>
                             <p>May 2022 - Aug 2022</p>
-                            <p>Worked on various projects, including developing web applications, web services, and
-                                mobile applications.</p>
-                        </li>
-                        <li>
-                            <p>March 2019 - July 2020</p>
-                            <p>Worked on various projects, including developing web applications, web services, and
-                                mobile applications.</p>
+                            <p>
+                                Developed and implemented new features for a web application, assisted in database optimization
+                                resulting in increased user engagement and improved overall site performance.
+                            </p>
                         </li>
                     </ul>
                 </div>
@@ -70,11 +70,14 @@
             <!-- Education -->
             <accordion-group [(isOpen)]="isEducationOpen">
                 <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
+                    <div style="visibility: hidden;">></div>
                     <div class="btn-link">Education</div>
 
-                    <!-- heading="Work Experience" -->
-                    <div *ngIf="!isEducationOpen" style="color: white;">></div>
-                    <div *ngIf="isEducationOpen" style="color: white;">v</div>
+                    <!-- heading="Education" -->
+                    <div style="width: 10.95px;">
+                        <div *ngIf="!isEducationOpen" style="color: white;">></div>
+                        <div *ngIf="isEducationOpen" style="color: white;">v</div>
+                    </div>
                 </button>
                 <div style="text-align: left;">
                     <h2 class="mb-0">B. Tech in Electrical and Electronics Engineering</h2>
@@ -97,43 +100,49 @@
             <!-- Certification -->
             <accordion-group [(isOpen)]="isCertificationsOpen">
                 <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
+                    <div style="visibility: hidden;">></div>
                     <div class="btn-link">Certifications</div>
 
-                    <!-- heading="Work Experience" -->
-                    <div *ngIf="!isCertificationsOpen" style="color: white;">></div>
-                    <div *ngIf="isCertificationsOpen" style="color: white;">v</div>
+                    <!-- heading="Certifications" -->
+                    <div style="width: 10.95px;">
+                        <div *ngIf="!isCertificationsOpen" style="color: white;">></div>
+                        <div *ngIf="isCertificationsOpen" style="color: white;">v</div>
+                    </div>
                 </button>
                 <div style="text-align: left;">
-                    <h3>Java Programming Masterclass</h3>
-                    <ul>
+                    <h5 class="text-primary"><a href="https://www.udemy.com/certificate/UC-ca6f32b0-bf46-4244-83f3-287fc9c07d96/">Java Programming Masterclass</a></h5>
+                    <!-- <ul>
                         <li>
                             Obtained June 2022
                         </li>
                         <li>
                             #98923402389
                         </li>
-                    </ul>
+                    </ul> -->
 
-                    <h3>Mastering Data structure and algorithms using C and C++</h3>
-                    <ul>
+                    <h5 class="text-primary"><a href="https://www.udemy.com/certificate/UC-c14367e1-7d8c-42c5-ab5f-de47d14ba006/">Mastering Data structure and algorithms using C and C++</a></h5>
+                    <!-- <ul>
                         <li>
                             Obtained March 2022
                         </li>
                         <li>
                             #32f98bk39
                         </li>
-                    </ul>
+                    </ul> -->
                 </div>
             </accordion-group>
 
             <!-- Skills -->
             <accordion-group [(isOpen)]="isSkillsOpen">
                 <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
+                    <div style="visibility: hidden;">></div>
                     <div class="btn-link">Skills</div>
 
-                    <!-- heading="Work Experience" -->
-                    <div *ngIf="!isSkillsOpen" style="color: white;">></div>
-                    <div *ngIf="isSkillsOpen" style="color: white;">v</div>
+                    <!-- heading="Skills" -->
+                    <div style="width: 10.95px;">
+                        <div *ngIf="!isSkillsOpen" style="color: white;">></div>
+                        <div *ngIf="isSkillsOpen" style="color: white;">v</div>
+                    </div>
                 </button>
                 <div class="row" style="text-align: left;">
                     <div class="col">
