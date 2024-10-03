@@ -4,6 +4,7 @@ import {ModalModule} from 'ngx-bootstrap/modal';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { CollapseModule } from 'ngx-bootstrap/collapse';
 import {FormsModule} from '@angular/forms';
+import { AccordionModule } from 'ngx-bootstrap/accordion';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -37,6 +38,7 @@ import { ProjectModalComponent } from './components/project-modal/project-modal.
     CarouselModule.forRoot(),
     CollapseModule.forRoot(),
     FormsModule,
+    AccordionModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

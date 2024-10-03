@@ -67,6 +67,7 @@ export class PortfolioComponent implements OnInit {
   // ];
 
   isCollapsed: boolean = true;
+  filtering: Boolean = false;
 
   typescript: boolean = false;
   java: boolean = false;
@@ -134,7 +135,29 @@ export class PortfolioComponent implements OnInit {
       filterTags.push(Tag.ASPNET);
     }
 
+    if(this.nodejs || this.aspnet || this.javascript || this.java || this.python || this.csharp || this.typescript || this.react || this.springboot || this.angular){
+      this.filtering = true;
+    }else{
+      this.filtering = false;
+    }
+
     this.projects = this.projectService.getProjectsByFilter(filterTags);
+  }
+
+  resetFiltes(){
+    this.java = false;
+    this.typescript = false;
+    this.angular = false;
+    this.springboot = false;
+    this.react = false;
+    this.javascript = false;
+    this.python = false;
+    this.csharp = false;
+    this.nodejs = false;
+    this.aspnet = false;
+    this.filtering = false;
+
+    this.projects = this.projectService.getProjects();
   }
 
 }
