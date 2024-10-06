@@ -1,14 +1,16 @@
-# PortfolioApp
+<h1 align="center"> Portfolio-Application </h1>
+<p></p>
 
 ![author](https://img.shields.io/badge/author-SharmaRajan-blueviolet.svg)![issues](https://img.shields.io/github/issues/SharmaRajan/portfolio-app.svg)![stars](https://img.shields.io/github/stars/SharmaRajan/portfolio-app.svg)![forks](	https://img.shields.io/github/forks/SharmaRajan/portfolio-app.svg)![license](https://img.shields.io/github/license/SharmaRajan/portfolio-app.svg)
+------
 
+- Welcome to my portfolio! This collection showcase my work in web development, showcasing a variety of projects that demonstrate my skills in front-end and back-end development. Each project reflect my passion for creating responsive, user-friendly websites and web application.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.3.
+- This software built with `Angular` using `HTML`, `CSS`, `BootStrap`.
 
-Portfolio software built with Angular using HTML, CSS, BootStrap.
+- This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.3.
 
-https://github.com/SharmaRajan/portfolio-app/issues
-
+------
 
 ## Contributing
 
@@ -20,20 +22,37 @@ If you see an problem that you'd like to see fixed, the best way to make it happ
 
 You can also ask for problem solving ideas and discuss in GitHub issues directly.
 
-
-[//]: # (## INDEX)
+-----
 
 ## Prerequisites
 - Active internet connection :)
 - Basic knowledge of Angular CLI :)
+- NodeJs (20.18.0) and NPM (10.9.0) - [NodeJS Install](https://nodejs.org/en/download/package-manager/)
 - [Git bash](https://git-scm.com/downloads) (for Windows users)
 - The ports 4200, 5200, 8080, 8081 must be avaialable at the host machine.
 
 
-# Setup
+### How-to run (in project root folder)
+- Install frontend dependencies
+```
+  npm install
+```
+- Build project. The build artifacts will be stored in the `dist/` directory.
+```
+  ng build
+```
+
+-----
+
+# Installation
 ### Development Server
 
-- Simply clone this repo and run command in Terminal
+- Open Terminal and clone the repo
+```
+  git clone https://github.com/SharmaRajan/portfolio-app.git
+```
+
+- Go to the portfolio-app directory and start the environment 
 
   ```
   > cd portfolio-app
@@ -46,9 +65,6 @@ You can also ask for problem solving ideas and discuss in GitHub issues directly
 
 - Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-### Build
-
-- Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
 ### Running unit tests
 
@@ -62,25 +78,28 @@ You can also ask for problem solving ideas and discuss in GitHub issues directly
 
 - To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
 
+
+-----
+
 # Deploy to GitHub Pages
 
 ***Step 1: Install GitHub Pages Globally***
 
-  ```
-  > npm install -g angular-cli-ghpages
-  ```
+```
+    > npm install -g angular-cli-ghpages
+```
 
 ***Step 2: Add GitHub Pages in your Project***
 
-  ```
-  > ng add angular-cli-ghpages
-  ```
+```
+    > ng add angular-cli-ghpages
+```
 
 ***Step 3: Go to `package.json` file and paste just above `name key`***
 
-  ```
-    "homepage": "https://{github-user-name}.github.io/{github-repo-name}",
-  ```
+```
+   "homepage": "https://{github-user-name}.github.io/{github-repo-name}",
+```
 
 ***Step 4: In `package.json` file inside script paste the command (This is optional)***
 
@@ -93,14 +112,14 @@ You can also ask for problem solving ideas and discuss in GitHub issues directly
 ***Step 5: build the project using GitHub Repo Name***
 
 ```
-    ng build --output-path=dist --base-href=/{github-repo-name}/
+   > ng build --output-path=dist --base-href=/{github-repo-name}/
 ```
 
 
 ***Step 6: Deploy local folder `dist/browser` to GitHub Pages***
 
 ```
-    ngh --dir=dist/browser
+   > ngh --dir=dist/browser
 ```
 
 
@@ -109,4 +128,112 @@ You can also ask for problem solving ideas and discuss in GitHub issues directly
 
 
 
-- [↑↑↑ GO TO TOP ↑↑↑](#setup)
+
+[//]: # (### 2. Change the Google Maps Api)
+
+[//]: # (- Get [Google Map api]&#40;https://developers.google.com/maps/documentation/android/signup&#41;)
+
+[//]: # (- Now go to : [app\src\release\res\values\google_maps_api.xml]&#40;app\src\release\res\values\google_maps_api.xml&#41;)
+
+[//]: # (- and replace the "google_maps_key" with your own google map api key.)
+
+
+
+
+## License
+
+---
+
+[//]: # (- [@Rajan_Kumar_Sharma]&#40;https://github.com/SharmaRajan/portfolio-app&#41;)
+
+
+[![Author](https://img.shields.io/static/v1.svg?label=Author&message=@SharmaRajan&logo=github&style=social)](https://github.com/SharmaRajan/)
+
+**MIT &copy; [Rajan Sharma](https://github.com/SharmaRajan/portfolio-app)**
+
+<a href="https://x.com/RajanS5259"><img src="images5/twitter.png" width="32px" height="32px"></a> <a href="https://www.linkedin.com/in/rajan-kumar-sharma-709a17229/"><img src="images5/linkedin.png" width="32px" height="32px"></a>
+
+
+
+[//]: # (## 🔗 Links)
+
+[//]: # ([![portfolio]&#40;https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white&#41;]&#40;https://sharmarajan.github.io/portfolio-app/&#41;)
+
+[//]: # ([![linkedin]&#40;https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&#41;]&#40;https://www.linkedin.com/in/rajan-kumar-sharma-709a17229/&#41;)
+
+[//]: # ([![github]&#40;https://img.shields.io/badge/github-1DA1F2?style=for-the-badge&logo=github&logoColor=black&#41;]&#40;https://twitter.com/MoAhsanKhan5&#41;)
+
+[//]: # ()
+
+
+
+## Oh, Thanks!
+
+-----
+
+Thank you for being here!
+This project has saved me and my friends for many times in college.
+
+```bash
+
+   ____ _           _    _                   
+  / ___| | __ _  __| |  | |_ ___             
+ | |  _| |/ _` |/ _` |  | __/ _ \            
+ | |_| | | (_| | (_| |  | || (_) |           
+  \____|_|\__,_|\__,_|   \__\___/ 
+
+  ___  ___  ___                             
+ / __|/ _ \/ _ \                            
+ \__ \  __/  __/                            
+ |___/\___|\___|                        
+
+                      _                  _
+  _   _  ___  _   _  | |__   ___ _ __ ___| |
+ | | | |/ _ \| | | | | '_ \ / _ \ '__/ _ \ |
+ | |_| | (_) | |_| | | | | |  __/ | |  __/_|
+  \__, |\___/ \__,_| |_| |_|\___|_|  \___(_)
+  |___/                                     
+
+
+```
+
+-----
+
+## Need help?
+
+```javascript
+
+  if (needHelp === true) {
+     var emailId = "mr.sharmajeerajan@gmail.com";
+     // email is the best way to reach out to me.
+     sendEmail(emailId);
+  }
+
+```
+* Feel free to reach out if you're looking for a dedicated and collaborative partner!
+
+
+**Share your story([mr.sharmajeerajan@gmail.com](https://mail.google.com/mail/))** if you're using this repo for your mini/course project. I will be more than happy to know how does this project helped you.
+
+[![GMAIL](https://img.shields.io/static/v1.svg?label=send&message=mr.sharmajeerajan@gmail.com&color=red&logo=gmail&style=social)](mailto:mr.sharmajeerajan@gmail.com) [![GitHub followers](https://img.shields.io/github/followers/SharmaRajan.svg?label=Follow&style=social)](https://github.com/SharmaRajan)
+
+
+<!-- [![Email Badge](https://img.shields.io/badge/Gmail-Contact_Me-green?style=flat-square&logo=gmail&logoColor=FFFFFF&labelColor=3A3B3C&color=62F1CD)](mailto:mr.sharmajeerajan@gmail.com) -->
+
+* Invite me to connect on [LinkedIn](https://www.linkedin.com/in/rajan-kumar-sharma-709a17229/).
+
+------
+
+```javascript
+
+  if (isAwesome) {
+    // thanks in advance :p
+    starThisRepository();
+  }
+  
+```
+
+-----
+
+
+- [↑↑↑ GO TO TOP ↑↑↑](#contributing)
