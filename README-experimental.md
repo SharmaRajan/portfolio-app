@@ -1,6 +1,8 @@
 <h1 align="center"> Portfolio-Application </h1>
 <p></p>
 
+---
+
 ![author](https://img.shields.io/badge/author-SharmaRajan-blueviolet.svg)
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](#)
 ![stars](https://img.shields.io/github/stars/SharmaRajan/portfolio-app.svg)
@@ -9,11 +11,17 @@
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat&label=Contributions&colorA=red&colorB=black)](#)
 ![license](https://img.shields.io/github/license/SharmaRajan/portfolio-app.svg)
 
+[//]: # '<a href="https://github.com/SharmaRajan"><img alt="views" title="Github views" src="https://komarev.com/ghpvc/?username=SharmaRajan&style=flat-square" width="125"/></a>'
+
+---
+
 - **Welcome to my portfolio!** This collection showcase my work in web development, showcasing a variety of projects that demonstrate my skills in front-end and back-end development. Each project reflect my passion for creating responsive, user-friendly websites and web application.
 
 - This software built with `Angular` using `HTML`, `CSS`, `BootStrap`.
 
 - This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.3.
+
+---
 
 ## Prerequisites
 
@@ -26,18 +34,23 @@
 ### How-to run (in project root folder)
 
 - Install frontend dependencies
+
 ```
   npm install
 ```
 
 - Build project. The build artifacts will be stored in the `dist/` directory.
+
 ```
   ng build
 ```
 
+---
+
 ## VS Code Extensions
 
 ```
+
 	1. Code runner ( Optional)
 	2. Tabnine
 	3. Live server
@@ -58,13 +71,18 @@
                       "editor.defaultFormatter": "esbenp.prettier-vscode"
                   }
             ]
+
 	11. Indent rainbow
 	12. Autoclose tag
 	13. REST client
 	15. Material icon theme
 	16. Angular language service
 	17. Angular Snippets version 18
+
+
 ```
+
+---
 
 ## Installation
 
@@ -78,10 +96,10 @@
 
 - Go to the portfolio-app directory and start the environment
 
-```
+  ```
   > cd portfolio-app
   > ng serve --o
-```
+  ```
 
 - This `--o` will navigate to `http://localhost:4200/` as port 4200 is set default for this repo. The application will automatically reload if you change any of the source files.
 
@@ -144,6 +162,11 @@
 
 **_Step 7: Push Code to GitHub Repo_**
 
+[//]: # "### 2. Change the Google Maps Api"
+[//]: # "- Get [Google Map api](https://developers.google.com/maps/documentation/android/signup)"
+[//]: # "- Now go to : [app\\src\release\res\values\google_maps_api.xml](app\src\release\res\values\google_maps_api.xml)"
+[//]: # '- and replace the "google_maps_key" with your own google map api key.'
+
 <hr>
 
 <h1 align="left">Hey there, I'm <a href="https://www.linkedin.com/in/rajan-kumar-sharma-709a17229/">Rajan </a><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"> - A curious engineer tinkerer at heart</h1>
@@ -153,11 +176,29 @@
 - Development of Web Applications.
 - Web Scraping, Browser Automation, Python Scripting
 
+<hr>
+
 <h2 align="left">🌐 Connect</h2>
+
+[//]: # "You can get in touch:"
 
 <a href="https://x.com/RajanS5259"><img src="images5/twitter.png" width="32px" height="32px"></a> <a href="https://www.linkedin.com/in/rajan-kumar-sharma-709a17229/"><img src="images5/linkedin.png" width="32px" height="32px"></a>
 <a href="mailto:mr.sharmajeerajan@gmail.com"><img src="images5/gmail-96.svg" width="32px" height="32px"></a>
 
+[//]: # '<p align="left">'
+[//]: # '  <a href="https://www.linkedin.com/in/rajan-kumar-sharma-709a17229/"><img title="Follow on LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>'
+[//]: # '  <a href="https://www.facebook.com/SharmaRajan"><img title="Connect on Facebook" src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"/></a>'
+[//]: # '  <a href="https://x.com/RajanS5259"><img title="Follow on Twitter" src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>'
+[//]: # '  <a href="mailto:mr.sharmajeerajan@gmail.com"><img title="Email" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>'
+[//]: # '  <a href="https://github.com/SharmaRajan"><img title="Follow on GitHub" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/></a>'
+[//]: # '  <a href="https://www.instagram.com/harismuneer99"><img title="Follow on Instagram" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>'
+[//]: # '  <a href="https://www.youtube.com/channel/UCZ-uBd7g0E2Bp-0tXtSlSjw?sub_confirmation=1"><img title="Subscribe on YouTube" src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/></a>'
+[//]: # "</p>"
+
+<hr>
+
+[//]: # "## Authors 👋"
+[//]: # "<hr>"
 
 ## Contributing
 
@@ -166,6 +207,9 @@
 If you find any bug in the code or have any improvements in mind then feel free to generate a pull request.
 
 Contributions are very welcome!
+
+[//]: # "If you see an problem that you'd like to see fixed, the best way to make it happen is to help out by submitting a pull request implementing it."
+[//]: # "Refer to the [CONTRIBUTING.md](https://github.com/SharmaRajan/portfolio-app/blob/master/CONTRIBUTING.md) file for more details about the workflow."
 
 You can also ask for problem solving ideas and discuss in GitHub issues directly.
 
@@ -191,11 +235,27 @@ if (needHelp === true) {
 
 [![GMAIL](https://img.shields.io/static/v1.svg?label=send&message=mr.sharmajeerajan@gmail.com&color=red&logo=gmail&style=social)](mailto:mr.sharmajeerajan@gmail.com) [![GitHub followers](https://img.shields.io/github/followers/SharmaRajan.svg?label=Follow&style=social)](https://github.com/SharmaRajan)
 
+<!-- [![Email Badge](https://img.shields.io/badge/Gmail-Contact_Me-green?style=flat-square&logo=gmail&logoColor=FFFFFF&labelColor=3A3B3C&color=62F1CD)](mailto:mr.sharmajeerajan@gmail.com) -->
+
+[//]: # "* Invite me to connect on [LinkedIn](https://www.linkedin.com/in/rajan-kumar-sharma-709a17229/)."
+
+---
 
 ## License
+
+[//]: # "- [@Rajan_Kumar_Sharma](https://github.com/SharmaRajan/portfolio-app)"
+
 [![Author](https://img.shields.io/static/v1.svg?label=Author&message=@SharmaRajan&logo=github&style=social)](https://github.com/SharmaRajan/)
 
 **MIT &copy; [Rajan Sharma](https://github.com/SharmaRajan/portfolio-app)**
+
+[//]: # "## 🔗 Links"
+[//]: # "[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://sharmarajan.github.io/portfolio-app/)"
+[//]: # "[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rajan-kumar-sharma-709a17229/)"
+[//]: # "[![github](https://img.shields.io/badge/github-1DA1F2?style=for-the-badge&logo=github&logoColor=black)](https://twitter.com/MoAhsanKhan5)"
+[//]: #
+
+---
 
 ## Oh, Thanks!
 
