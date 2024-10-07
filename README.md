@@ -154,9 +154,8 @@
 - Web Scraping, Browser Automation, Python Scripting
 
 <h2 align="left">🌐 Connect</h2>
-
-<a href="https://x.com/RajanS5259"><img src="images5/twitter.png" width="32px" height="32px"></a> <a href="https://www.linkedin.com/in/rajan-kumar-sharma-709a17229/"><img src="images5/linkedin.png" width="32px" height="32px"></a>
-<a href="mailto:mr.sharmajeerajan@gmail.com"><img src="images5/gmail-96.svg" width="32px" height="32px"></a>
+<a href="mailto:mr.sharmajeerajan@gmail.com"><img src="images5/gmail-96.svg" width="32px" height="32px"></a> <a href="https://www.linkedin.com/in/rajan-kumar-sharma-709a17229/"><img src="images5/linkedin.png" width="32px" height="32px"></a>
+<a href="https://x.com/RajanS5259"><img src="images5/twitter.png" width="32px" height="32px"></a> <a href="https://www.instagram.com/impervious.aviral/"><img src="images5/instagram-144.png" width="32px" height="32px"></a>
 
 
 ## Contributing
