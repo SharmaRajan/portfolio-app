@@ -11,8 +11,14 @@
 /* Importing Bootstrap SCSS file. */
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+//*{
+//  font-family: "Mabry Pro"; // Ayuthaya
+//  font-size: 13px;
+//}
+
 .container {
     max-width: 1140px;
+
 }
 
 .tag{
